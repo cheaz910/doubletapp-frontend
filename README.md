@@ -15,6 +15,7 @@
 ```
 Можно развернуть в докере:
 ```
+    npm install
     npm run docker
 ```
 ## API

@@ -39,7 +39,7 @@
     "lint": "npm-run-all lint:*",
     "lint:css": "stylelint src/**/*.css",
     "lint:es": "eslint server/ src/",
-    "docker": "npm-run-all lint docker:*",
+    "docker": "npm-run-all docker:*",
     "docker:build": "docker build -t %npm_package_name% .",
     "docker:run": "docker run -p 80:8080 %npm_package_name%",
     "heroku:login": "heroku container:login",
