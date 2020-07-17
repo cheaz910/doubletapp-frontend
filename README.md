@@ -1,7 +1,5 @@
 # Тестовое задание Doubletapp[Frontend]
-Развернуто на heroku
-
-    https://doubletapp-cheaz910.herokuapp.com/
+Развернуто на [heroku](https://doubletapp-cheaz910.herokuapp.com/)
     
 Использовано:
 * ReactJS
