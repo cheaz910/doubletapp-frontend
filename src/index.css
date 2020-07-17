@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Geometria;
+    src: url("assets/fonts/Geometria.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: Geometria, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@media only screen and (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+}

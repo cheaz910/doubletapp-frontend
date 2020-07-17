@@ -1,0 +1,33 @@
+.imgContainer__empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    margin: -2px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+    color: #49c2e8;
+}
+
+.imgContainer__img {
+    position: relative;
+    z-index: -1;
+    margin: -2px;
+    border-radius: 50%;
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+}
+
+.imgContainer {
+    display: block;
+    border-radius: 50%;
+}
+
+.imgContainer_border {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    box-sizing: border-box;
+}

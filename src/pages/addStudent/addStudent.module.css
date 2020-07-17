@@ -1,0 +1,38 @@
+.addStudent {
+    width: 82%;
+    margin: auto;
+    min-width: 955px;
+}
+
+.addStudent__backButton {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.addStudent__backButton:focus {
+    color: #000;
+}
+
+.backButton__text {
+    margin-left: 17px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.addStudent__title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+@media only screen and (max-width: 999px) {
+    .addStudent {
+        width: auto;
+        min-width: 0;
+        margin: auto;
+    }
+}

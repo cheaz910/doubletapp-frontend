@@ -1,0 +1,96 @@
+.profile {
+    width: 335px;
+    height: 170px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 7px 64px rgba(0, 0, 0, 0.07);
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.profile__header {
+    position: relative;
+    display: flex;
+    height: 70px;
+    padding: 16px 18px 14px 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.header__mainInfo {
+    margin-left: 21px;
+}
+
+.mainInfo__name {
+    display: block;
+    width: 200px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.mainInfo__secondRow {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.secondRow__rating {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.secondRow__colorPick {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 13px;
+    border-radius: 50%;
+}
+
+.profile__removeButton {
+    position: absolute;
+    right: 18px;
+    top: 16px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: url(../../assets/images/iconDel.png) no-repeat 8px center;
+    box-shadow: 0 0 16.3715px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.profile__description {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+    margin: 15px 50px 15px 79px;
+    list-style: none;
+    font-size: 12px;
+    line-height: 15px;
+    overflow: hidden;
+}
+
+.profile__description li {
+    margin-bottom: 5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+
+.profile__description li::before {
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin: 0 13px 0.2em 0;
+    border-radius: 50%;
+    background-color: #49c2e8;
+}
