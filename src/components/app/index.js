@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+import Header from "../header";
 import Students from "../../pages/students";
 import AddStudent from "../../pages/addStudent";
 import NotFoundPage from "../../pages/notFoundPage";
@@ -10,15 +11,8 @@ import styles from "./app.module.css";
 function App() {
   return (
     <>
-        <header className={styles.header}>
-            <div className={styles.wrapper}>
-                <div className={styles.header__icon}>
-                    <div className={styles.icon__inner} />
-                </div>
-                <span className={styles.header__title}>STUDENTS</span>
-            </div>
-        </header>
-        <main className={styles.main}>
+        <Header />
+        <main className={styles.content}>
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/">
