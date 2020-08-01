@@ -10,12 +10,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
-
-@media only screen and (max-width: 999px) {
-    body {
-        overflow-x: hidden;
-    }
+#root {
+    min-width: 400px;
 }

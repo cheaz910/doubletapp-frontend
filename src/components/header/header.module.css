@@ -48,6 +48,7 @@
     .wrapper {
         margin-right: 0;
         margin-left: 23px;
+        min-width: auto;
     }
 
     .title__additional {
