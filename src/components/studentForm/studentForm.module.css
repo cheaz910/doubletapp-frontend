@@ -75,4 +75,12 @@ input:-webkit-autofill:focus {
         height: auto;
         max-width: 100%;
     }
+
+    .formStudent__submitButton {
+        width: 335px;
+    }
+
+    .formStudent__field {
+        width: 335px;
+    }
 }

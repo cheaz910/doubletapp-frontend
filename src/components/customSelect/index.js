@@ -8,6 +8,9 @@ import Arrow from "../../assets/images/arr.png";
 const customStyles = {
     menu: () => ({
         width: '380px',
+        '@media only screen and (max-width: 999px)': {
+            width: '335px',
+        },
     }),
     option: (provided, state) => ({
         ...provided,
@@ -31,10 +34,16 @@ const customStyles = {
                 'url(../../assets/images/optionSelected.png) no-repeat right 13px center, rgba(73, 194, 232, 0.11)' :
                 'rgba(73, 194, 232, 0.11)',
         },
+        '@media only screen and (max-width: 999px)': {
+            width: '313px',
+        },
     }),
     container: () => ({
         width: '380px',
         border: '0',
+        '@media only screen and (max-width: 999px)': {
+            width: '335px',
+        },
     }),
     input: () => ({
         fontSize: '16px',
@@ -60,7 +69,7 @@ const customStyles = {
     menuList: (provided, state) => {console.log(state); return {
         ...provided,
         position: 'absolute',
-        width: state.options.length > 4 ? '397px' : '380px',
+        width: '380px',
         maxHeight: '164px',
         zIndex: '2',
         scrollbarWidth: 'thin',
@@ -70,6 +79,9 @@ const customStyles = {
         boxShadow: '0px 7px 64px rgba(0, 0, 0, 0.07)',
         borderRadius: '6px',
         backgroundColor: '#fff',
+        '@media only screen and (max-width: 999px)': {
+            width: '335px',
+        },
     }},
     dropdownIndicator: () => ({
         margin: '13px 22px 13px 0',
@@ -82,6 +94,7 @@ const colorStyles = {
         ...provided,
         display: 'inline-block',
         width: '30px',
+        minWidth: '30px',
         height: '30px',
         marginRight: '20px',
         borderRadius: '50%',
@@ -105,9 +118,13 @@ const colorStyles = {
         borderRadius: '6px',
         boxShadow: '0px 7px 64px rgba(0, 0, 0, 0.07)',
         boxSizing: 'border-box',
-        overflow: 'hidden',
+        whiteSpace: 'nowrap',
+        overflowX: 'auto',
         fontSize: '0',
         backgroundColor: '#fff',
+        '@media only screen and (max-width: 999px)': {
+            width: '335px',
+        },
     }),
 
 }
